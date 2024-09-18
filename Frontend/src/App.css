@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('../src/font/FavoritTumblr-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MyText';
+  src: url('../src/font/FavoritTumblr-85.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p{
+  font-family: 'MyText', sans-serif;
+}
+.username{
+  padding: 5px 0;
+  font-size: 15px;
+}
+.signup-ptag{
+  font-weight: 500;
+  font-family: 'MyFont', sans-serif;
+}
+.pclass{
+  padding-top: 1px;
+  color: gainsboro;
+  font-size: 17px;
+}
+.userPostcard{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.userPostcard img{
+  width: 40px;
+  border-radius: 5px ;
+}
+.followbtn{
+  color: #7d99a6;
+  cursor: pointer;
+}
+.dialogcontent{
+  text-align: center;
+  padding: 10px 0;
+}
+::placeholder{
+  color: #b8b8b8;
+  font-size: 15px;
+}
+input{
+  outline: none;
+  border: 2px solid white;
+  background-color: #967dff;
+}
+/* SliderCss */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
